@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5391490253104697341
 SpriteRenderer:
@@ -139,14 +139,14 @@ MonoBehaviour:
   MaxNumberOfActivations: 0
   DelayBetweenUses: 0
   DisableAfterUse: 0
-  InputType: 0
+  InputType: 2
   InputButton: Interact
-  InputKey: 32
+  InputKey: 101
   AnimationTriggerParameterName: 
   UseVisualPrompt: 1
   ButtonPromptPrefab: {fileID: 114235008137252218, guid: bb1fc0f1f16f31248b9b4d80aa795609,
     type: 3}
-  ButtonPromptText: A
+  ButtonPromptText: E
   ButtonPromptColor: {r: 0.4862745, g: 0.9882353, b: 0, a: 1}
   ButtonPromptTextColor: {r: 1, g: 1, b: 1, a: 1}
   AlwaysShowPrompt: 0
