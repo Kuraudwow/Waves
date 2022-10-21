@@ -18,6 +18,11 @@ public class dieDieDieMyDarling : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D truc)
     {   Debug.Log("Touche");
+        if(truc.tag == "Checkpoint")
+        {
+        spawn.transform.position = transform.position;
+        Destroy(truc);
+        }
         if(truc.tag == "Kill")
         {
         Debug.Log("Meurt");
